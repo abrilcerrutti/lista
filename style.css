@@ -1,0 +1,57 @@
+html {
+  width: 45em;
+  margin: 190px auto;
+  font-family: sans-serif;
+}
+
+body {
+      background-color: #E2E2E2;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(203,229,247);
+}
+
+td {
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(250,250,250);
+}
+
+table tr:nth-child(odd) {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+}
+h2 {
+    color: #3A67FF;
+}
+strong {
+    color: #003AFF;
+}
+
+  table.tabla_profes tr:nth-child(odd)
+  {
+    background-color: #E2E2E2;
+  }
+
+  table.tabla_profes tr:nth-child(even)
+  {
+    background-color: #B3BBFF;
+}
